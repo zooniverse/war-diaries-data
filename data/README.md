@@ -1,5 +1,12 @@
 # Data
 
+Operation War Diary transcribed a series of WWI British Army records by placing tags on a page to mark dates, times, activities, named people, named units etc. A sample diary page, with consensus tags calculated from individual volunteer 
+contributions is shown here.
+
+![A screenshot of the War Diaries Data Digger interface, showing a single diary page with tags overlaid.](../wd3-screenshot.jpg)
+
+Data derived from the tagged pages is described here.
+
 ## /diaries
 
 CSV exports of the tagged timeline for each diary, named by diary group ID eg. `GWD0000001.csv`
