@@ -2,6 +2,27 @@
 
 ## /diaries
 
+CSV exports of the tagged timeline for each diary, named by diary group ID eg. `GWD0000001.csv`
+Each line represents the consensus for a single tag that was placed on the page.
+Columns are:
+
+- `Order`: tag order within the diary as a whole.
+- `Page`: Zooniverse ID of the classified page.
+- `Page type`
+- `Page number`: Page number within the diary.
+- `Count`: The number of annotations used to generate this consensus tag.
+- `DateTime`: Datetime for this diary entry.
+- `Date`: Date of the diary entry.
+- `Place`: Any place name recorded for this entry.
+- `Lat/Lon`: Latitute/Longitude.
+- `Time`: Any time recorded in the diary entry.
+- `Type`: Tag type.
+- `Label`: Free text label for this tag.
+- `Data`: Tag data. The data structure varies between tag types.
+- `GeoID`: geonames.org ID of any linked place.
+- `GeoName`: geonames.org name of any linked place.
+- `GeoCoords`: Lat/long of any linked place.
+
 ## /groups
 
 JSON exports of the [Group models](https://github.com/zooniverse/wd3/blob/master/app/models/group.rb), one per diary, named by the group ID eg. `GWD0000001.json`. These can be used to look up diary metadata for a given group/diary.
