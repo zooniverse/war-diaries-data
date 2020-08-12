@@ -8,7 +8,7 @@ JSON exports of the [Group models](https://github.com/zooniverse/wd3/blob/master
 
 ## /results
 
-Aggregated results for each diary, named by diary group ID eg. `GWD0000001.json`. Each file is an array of [Result models](https://github.com/zooniverse/wd3/blob/master/app/models/result.rb), where a Result represents the consensus for a single tag on a page of the diary (diaryDate, place, activity, person etc.)
+Aggregated results for each diary, named by diary group ID eg. `GWD0000001.json`. Each file is an array of [TImeline models](https://github.com/zooniverse/wd3/blob/master/app/models/timeline.rb), where a Timeline represents the consensus for a single tag in the overall timeline of the diary (diaryDate, place, activity, person etc.)
 
 ## places.csv
 
